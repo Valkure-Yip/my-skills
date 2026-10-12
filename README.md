@@ -65,3 +65,23 @@ npx skills@latest add Valkure-Yip/my-skills --list
 ```
 
 Skill 入口：[skills/make-teacher/SKILL.md](skills/make-teacher/SKILL.md)。无需发布 npm 包。
+
+## quick-reading
+
+用浅显语言阅读论文、技术博客、文档或 RFC：先总览全文，再按原文章节带读重点、证据与限制，输出 Markdown 文档。复杂内容配合图表、Mermaid 和思维导图；优先使用 XMind MCP，不可用时输出可导入 XMind 的 Markdown。
+
+### 安装到 Codex
+
+```bash
+npx skills@latest add Valkure-Yip/my-skills --skill quick-reading -g -a codex
+```
+
+### 使用
+
+```text
+$quick-reading 带我读懂这篇文章：<文章链接或本地文件路径>
+```
+
+保留本机原版教学指令和 Codex 界面元数据。XMind 是可选能力；原文不可访问或缺失关键内容时，应说明缺口，不补造文章结论。
+
+Skill 入口：[skills/quick-reading/SKILL.md](skills/quick-reading/SKILL.md)。

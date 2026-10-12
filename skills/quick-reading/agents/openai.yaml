@@ -1,0 +1,4 @@
+interface:
+  display_name: "快速文章伴读"
+  short_description: "用浅显语言先总览，再按原文结构带读重点与限制"
+  default_prompt: "使用 $quick-reading 先总览、再按原文结构带我读懂这篇文章。"
