@@ -1,0 +1,4 @@
+interface:
+  display_name: "Make Teacher"
+  short_description: "创建精简、可持续教学的技术课程，并可按需同步课程笔记到 Notion"
+  default_prompt: "使用 $make-teacher 把当前目录初始化为一门技术课程，先确认我的学习目标，再参考真实课程生成大纲与教学环境。"
